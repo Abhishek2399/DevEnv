@@ -1,0 +1,102 @@
+{
+  "workbench.colorTheme": "Cozy Dark",
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Hasklig, \"Fira Code\", \"cascadia code\",Consolas, 'Courier New', monospace",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "GitBash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.cursorStyle": "underline",
+  "diffEditor.codeLens": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "wallaby.startAutomatically": false,
+  "tabnine.experimentalAutoImports": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "bysabi.prettier-vscode-standard"
+  },
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.fullReload": false,
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "surround-python.with.tryExcept": {
+    "label": "try/except",
+    "description": "try { ... } except (err) { $catchBlock }",
+    "disabled": false,
+    "snippet": "try:\n\t$TM_SELECTED_TEXT\nexcept ${2:Exception}:\n\t$1\n$0"
+  },
+  "surround-python.with.tryExceptFinally": {
+    "label": "try/except/finally",
+    "description": "try { ... } except (err) {$catchBlock} finally { $finalBlock }",
+    "disabled": false,
+    "snippet": "try: \n\t$TM_SELECTED_TEXT\nexcept ${3:Exception}:\n\t$1\nfinally: \n\t$2\n$0"
+  },
+  "editor.fontSize": 12.5,
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 13,
+  "files.autoSave": "afterDelay",
+  "bitoAI.codeCompletion.enableAutoCompletion": true,
+  "bitoAI.codeCompletion.enableCommentToCode": true,
+  "editor.inlineSuggest.showToolbar": "onHover",
+  "bitoAI.appearance.fontSize (Match with IDE Font)": false,
+  "workbench.editorAssociations": {
+    "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.lineNumbers": "on",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "jupyter.askForKernelRestart": false,
+  "chat.editor.fontSize": 12,
+  "markdown.preview.fontSize": 13.5,
+  "editor.scrollbar.verticalScrollbarSize": 13.5,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 40,
+  "terminal.integrated.fontWeight": 40,
+  "emmet.excludeLanguages": ["markdown", "HTML"],
+  "emmet.showSuggestionsAsSnippets": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
